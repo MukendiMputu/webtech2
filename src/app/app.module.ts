@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TaskComponent } from './task/task.component';
 import { TaskListComponent } from './task-list/task-list.component';
+import { FavoriteDirective } from './favorite.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     TaskComponent,
-    TaskListComponent
+    TaskListComponent,
+    FavoriteDirective
   ],
   imports: [
     BrowserModule,
