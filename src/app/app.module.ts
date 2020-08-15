@@ -8,7 +8,7 @@ import { TaskListComponent } from './task-list/task-list.component';
 import { FavoriteDirective } from './favorite.directive';
 
 @NgModule({
-  // To make other component, directives and pipes available 
+  // To make other component, directives and pipes available
   // to this module that don't come from other module
   declarations: [
     AppComponent,

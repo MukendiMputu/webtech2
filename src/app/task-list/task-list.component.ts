@@ -8,8 +8,6 @@ import { Component, OnInit } from '@angular/core';
 export class TaskListComponent implements OnInit {
   constructor() {}
 
-  ngOnInit(): void {}
-
   taskItems = [
     {
       id: 1,
@@ -52,6 +50,8 @@ export class TaskListComponent implements OnInit {
       closed: false,
     },
   ];
+
+  ngOnInit(): void {}
 
   onTaskDelete(task) {}
 }
